@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DVD Push!</title>
+
+    <link rel="stylesheet" href="style/style.css" type="text/css" charset="utf-8" />
+
+    <audio id="corner-hit" src="assets/corner_hit.mp3"></audio>
+    <audio id="edge-hit" src="assets/edge_hit.mp3"></audio>
+    <audio id="score-up" src="assets/score_up.mp3"></audio>
+</head>
+
+<header>
+    <div id="title">
+        <h1><b>DVD Push!</b></h1>   
+    </div>
+
+    <audio id="bgm" src="assets/bgm.mp3" controls></audio>
+    
+    <div id="how-to-play">
+        <button onclick="showInstr()"> How to Play </button>
+    </div>
+        
+    <div id="instructions">
+        <p> Click outside the DVD's hitbox to nudge it to the opposite direction!</p>
+    </div>
+</header>
+
+<body>
+    <canvas id="bouncing-dvd" width="1024px" height="768px"></canvas>
+</body>
+
+<footer>
+    <p>Unpublished work &copy;2021 Nella Rose O. Bermudo Bath Spa UAE Year 1</p>
+</footer>
+
+<script src="canvas.js"></script>
+</html> 

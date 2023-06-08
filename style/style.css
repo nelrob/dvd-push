@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'ac437_ibm_biosregular';
+    src: url('ac437_ibm_bios-webfont.woff2') format('woff2'),
+    url('ac437_ibm_bios-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    body {
+        text-align: center;
+        background-color: #1413ff;
+        color: white;
+        font-family: 'ac437_ibm_biosregular', Arial, sans-serif;
+        margin: 0 40vh 0 40vh;
+        }       
+    
+
+    canvas {
+            border: 1.5px solid white;
+            align-items: center;
+            background-color: rgb(20, 20, 20);
+            cursor: pointer;
+        }
+
+    #title {
+        text-align: center;
+        width: 100%;
+        font-size: 150%;
+    }
+
+    #how-to-play {
+        float: left;
+        width: 40%;
+        font-size: 120%;
+        text-align: center;
+        margin: 1%;
+        /* background-color: greenyellow; */
+    }
+
+    #how-to-play button {
+        font-family: 'ac437_ibm_biosregular', Arial, sans-serif;
+        color:white;
+        background-color: transparent;
+        /* border-color: white; */
+        cursor: pointer;
+        width: 100%;
+        font-size: 150%;
+        text-shadow: 3px 3px black;
+        padding: 2vh 0 2vh 0;
+    }
+
+    #how-to-play button:hover {
+        background-color: white;
+        color:grey;
+    }
+
+    #instructions {
+        background-color: white;
+        color: grey;
+        text-shadow: 1px 1px black;
+        text-align: center;
+        display: none;
+        padding: 1px;
+        margin-bottom: 1px;
+    }
+
+    audio {
+        float:center;
+        width: 50%;
+        margin: 2%;
+    }
+
+    footer {
+        font-size: 70%;
+    }
